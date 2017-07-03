@@ -1,0 +1,23 @@
+*{margin:0, padding:0}
+
+h1{color: #000;}
+
+
+@media print
+	{
+		  h1 {color:#FF0;} /*Vermelho*/
+	}
+@media (max-width: 1024px) and (orientation: landscape) 
+	{
+		  h1 {color:#e0d918;} /*amarelo*/
+	}
+
+@media (max-width: 768px), (min-width: 1024px) 
+	{
+		 h1 {color:#1843e0;} /*azul*/
+	}
+
+@media screen and (max-width: 480px) 
+	{
+		  h1{color:#358931;} /*verde*/
+	}
