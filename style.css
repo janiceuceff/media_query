@@ -5,11 +5,11 @@ h2{font-style: 20px;}
 
 @media print
 	{
-		  h1 {color:#FF0;} /*Vermelho*/
+		  h1 {color:#FF0;} /*amarelo*/
 	}
 @media (max-width: 1024px) and (orientation: landscape) 
 	{
-		  h1 {color:#e0d918;} /*amarelo*/
+		  h1 {color:#e0d918;} /*Vermelho**/
 	}
 
 @media (max-width: 768px), (min-width: 1024px) 
